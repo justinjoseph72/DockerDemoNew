@@ -1,0 +1,14 @@
+server:
+    port: 8085
+    ssl:
+        enabled: true
+        key-store: "keystore.p12"
+        key-store-password: password123
+        keyStoreType: PKCS12
+        keyAlias: tomcat-1
+
+com:
+    yoti:
+        client:
+            clientSdkId: "ca3ea402-b0a0-4642-9e1c-33938ea4a93"
+            accessSecurityKey: "classpath:/application-access-key.pem"
